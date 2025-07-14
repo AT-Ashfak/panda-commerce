@@ -1,0 +1,167 @@
+/*common css*/
+*{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.panda-btn{
+    border-radius: 6px;
+
+/* Linear */
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 15px 35px;
+    border: none;
+    color:white ;
+    font-weight: 500;
+
+}
+.common-section-title{
+    font-weight: 600;
+    font-size: 36px;
+}
+/* custom css*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+
+}
+.search-parent{
+    position: relative;
+    color: #BABABA;
+}
+.search-parent input{
+    border-radius: 66px;
+    padding:15px 30px;
+    width: 500px;
+    border: none;
+
+
+background: rgb(241, 241, 241);
+}
+.search-parent i{
+    position: absolute;
+    top:18px;
+    right: 10px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.banner{
+    background: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    padding: 28px;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+}
+.banner h2{
+
+color: rgb(31, 31, 31);
+font-size: 56px;
+font-weight: bold;
+}
+.banner p{
+color: #4E4E4E;
+max-width: 456px;
+}
+.banner-price{
+    color: #FF136F;
+    font-weight: bold;
+    font-size: 51px;
+    margin-bottom: 35px;
+    display: block;
+    margin-bottom: 0;
+
+
+}
+.banner img{
+    width: 402px;
+    height: 378px;
+}
+
+/* category section*/
+.categories{
+    margin-top: 64px;
+}
+.category-card{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 20px;
+    border-radius: 10px;
+    flex:1;
+}
+.category-card h3{
+    color: white;
+    font-weight: bold;
+    font: size 30px; ;
+}
+.categories-card-container{
+    display: flex;
+    gap: 26px;
+}
+
+.category-card:nth-child(1) {
+     background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+
+}
+.category-card:nth-child(2){
+    /* Linear */
+ background: linear-gradient(180.00deg, rgb(255, 88,   155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.category-card:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+
+/*shoes and bag section*/
+.shoes-section{
+    background-color:rgb(244, 244, 244);
+    padding: 50px 0;
+}
+
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.shoe-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.shoe-card img{
+    width: 336px; 
+    height: 202px;
+}
+
+.shoe-card .panda-btn{
+    background: black;
+}
