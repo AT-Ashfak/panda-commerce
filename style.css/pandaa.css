@@ -135,6 +135,23 @@ max-width: 456px;
 
 
 /*shoes and bag section*/
+.shoes-backpack-parent{
+    background: rgb(244, 244, 244);
+}
+.shoes-bag-see-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-bag-see-all p{
+    font-size: 20px;
+    color: #ff9d00;
+}
+.shoes-bag-see-all h3{
+    font-weight: bold;
+    font-size: 36px;
+
+}
 .shoes-section{
     background-color:rgb(244, 244, 244);
     padding: 50px 0;
